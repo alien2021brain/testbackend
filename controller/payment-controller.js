@@ -57,7 +57,7 @@ export const paymentResponse = (request, response) => {
 
                     post_res.on('end', function () {
                         let result = JSON.parse(res)
-                        response.redirect(`https://exquisite-strudel-179464.netlify.app/`)
+                        response.redirect(`https://flipcarclone.netlify.app/`)
                     });
                 });
                 post_req.write(post_data);
